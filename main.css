@@ -171,6 +171,7 @@ main {
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
+  width: 100%;
 }
 
 .news__title {
@@ -197,8 +198,7 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding: 1.5em inherit;
 }
 
 .top-news__item a:hover,
@@ -215,6 +215,7 @@ main {
 
 .scores {
   padding-top: 1em;
+  flex-grow: 1;
 }
 
 .scores__table {
@@ -261,6 +262,7 @@ main {
  */
 
 .weather {
+  flex-grow: 1;
   padding: 1em;
 }
 
@@ -315,6 +317,7 @@ main {
  */
 
 .recent-news {
+  flex-grow: 1;
   clear: both;
   padding: 1em;
 }
@@ -337,8 +340,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
