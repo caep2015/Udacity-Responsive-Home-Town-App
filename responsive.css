@@ -2,3 +2,16 @@
 
 /* add breakpoints and pattern that works across different devices. */
 /* add navigation hamburger menu */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+.hero, .top-news, .scores, .weather, .recent-news {
+  order: 10;
+}
