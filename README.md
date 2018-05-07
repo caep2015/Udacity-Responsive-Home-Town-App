@@ -1,8 +1,7 @@
 # Udacity-Responsive-Home-Town-App
-Designing a responsive site starting small.
-
-Udacity Front End Nano Degree 
+Udacity Front End Nano Degree: Designing a responsive site starting small.
 Web Foundations Lesson 12 Starting Small
+
 Designing a responsive Home Town App Parts 1, 2, and 3
 Starter code provided for this project.
 
